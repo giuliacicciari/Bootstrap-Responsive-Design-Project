@@ -1,0 +1,113 @@
+
+
+
+body {
+  font-family: 'Bebas Neue', 'Bricolage Grotesque', sans-serif;
+}
+
+.card {
+  margin: 0 20px 30px 20px; 
+}
+
+.carousel-inner {
+  height: 300px;           
+}
+
+.carousel-img {
+  max-height: 100%;        
+  width: auto;             
+  object-fit: contain;     
+  display: block;
+  margin-left: auto;
+  margin-right: auto;     
+}
+
+#topRated {
+  background-color: lightcoral !important;
+}
+
+#recommendations {
+  background-color: lightcoral !important;
+}
+
+
+#about {
+  background-color: whitesmoke;
+}
+
+
+#mainNav {
+  background-color: lightcoral !important;
+}
+
+
+header {
+  margin-top: 56px;
+}
+
+
+
+
+.carousel-inner {
+  height: 300px;
+}
+
+.carousel-item img {
+  max-height: 250px;
+  width: auto;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;      
+  border: 2px solid lightcoral;   
+  background-color: lightcoral;  
+  border-radius: 100%;           
+  width: 40px;                  
+  height: 40px;
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+  content: '';                  
+}
+
+
+/* Recommendations Section */
+#recommendations {
+  background-color: lightcoral;
+  color: white;       
+  padding: 80px 0;
+  text-align: center;  
+}
+
+/* Labels inside the section */
+#recommendations .form-label {
+  color: white;
+}
+
+/* White submit button */
+#recommendations .btn {
+  background-color: white; 
+  color: lightcoral;       
+  border: none;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+
+
+#thisWeek {
+  background-color: antiquewhite;
+}
+
